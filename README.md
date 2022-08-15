@@ -66,7 +66,7 @@ Now go and `/start` the bot. If everything went right, bot will respond with wel
 
 ## Setting up Streaming Service
 
-The streaming service can be a custom version of xxx, modded to work with this setup. The mod basicaly is adding a type of header based authentication and changing the endpoints. The authentication part is optional and the endpoint used here is `/file/:chat_id/:message_id`. Make sure to note these changes when deploying your own instance. The str service used for [@screenshotit_bot](https://tx.me/screenshotit_bot "Screenshot Generator Bot") is not related to (https://github.com/tulir/tgfilestream) and I do not plan to make it OSS.
+The streaming service can be a custom version of xxx, modded to work with this setup. The mod basicaly is adding a type of header based authentication and changing the endpoints. The authentication part is optional and the endpoint used here is `/file/:chat_id/:message_id`. Make sure to note these changes when deploying your own instance. The str service used for [@screenshotit_bot](https://tx.me/screenshotit_bot "Screenshot Generator Bot") is not related to kill and I do not plan to make it OSS.
 
 ## Supported commands and functions
 
@@ -111,17 +111,9 @@ Contributions are welcome.
 You can contact me [@odysseusmax](https://tx.me/odysseusmax).
 
 ## Thanks
-Thanks to [Dan](https://github.com/delivrance "Dan") for his [Pyrogram](https://github.com/pyrogram/pyrogram "Pyrogram") library.
 
-Thanks to [Tulir Asokan](https://github.com/tulir "Tulir Asokan") for his [TgFileStream](https://github.com/tulir/tgfilestream "TgFileStream") Bot.
 
-## Dependencies
-* pyrogram
-* tgcrypto
-* motor
-* dnspython
-* async-timeout
-* aiohttp
+
 
 
 ## License
