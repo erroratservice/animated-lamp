@@ -47,7 +47,7 @@ Properly setup the environment variables or populate `config.py` with the values
 * `LOG_CHANNEL`(required) - Log channel's id.
 * `DATABASE_URL`(required) - Mongodb database URI.
 * `AUTH_USERS`(required) - Admin(s) of the bot. User's telegram id separated by space. Atleast one id should be specified.
-* `HOST`(required) - Public URL of file streaming service ([See Setting up Streaming Service](#setting-up-streaming-service)).
+* `HOST`(required) - Public URL of  service ([See Setting up g Service](#setting-up-streaming-service)).
 * `SESSION_NAME`(optional) - Name you want to call your bot's session, Eg: bot's username.
 * `MAX_PROCESSES_PER_USER`(optional) - Number of parallel processes each user can have, defaults to 2.
 * `MAX_TRIM_DURATION`(optional) - Maximum allowed video trim duration in seconds. Defaults to 600s.
@@ -66,7 +66,7 @@ Now go and `/start` the bot. If everything went right, bot will respond with wel
 
 ## Setting up Streaming Service
 
-The streaming service can be a custom version of [TgFileStream](https://github.com/tulir/tgfilestream), modded to work with this setup. The mod basicaly is adding a type of header based authentication and changing the endpoints. The authentication part is optional and the endpoint used here is `/file/:chat_id/:message_id`. Make sure to note these changes when deploying your own instance. The streaming service used for [@screenshotit_bot](https://tx.me/screenshotit_bot "Screenshot Generator Bot") is not related to [TgFileStream](https://github.com/tulir/tgfilestream) and I do not plan to make it OSS.
+The streaming service can be a custom version of xxx, modded to work with this setup. The mod basicaly is adding a type of header based authentication and changing the endpoints. The authentication part is optional and the endpoint used here is `/file/:chat_id/:message_id`. Make sure to note these changes when deploying your own instance. The str service used for [@screenshotit_bot](https://tx.me/screenshotit_bot "Screenshot Generator Bot") is not related to (https://github.com/tulir/tgfilestream) and I do not plan to make it OSS.
 
 ## Supported commands and functions
 
